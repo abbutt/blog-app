@@ -7,7 +7,7 @@ header {
     border-bottom: 1px solid black;
     margin-bottom: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .post-entry { 
     margin-bottom: 2rem;
@@ -26,4 +26,7 @@ header {
 }
 .post-entry h2 a:hover { 
     color: red;
+}
+.nav-right{
+    padding: 20px;
 }
